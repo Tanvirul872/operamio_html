@@ -456,9 +456,58 @@ background-color: #DBDDDA;
 .sec6-bottomtext span {
 	display: flex;
 	font-size: 16px;
+} 
+
+.section7-card {
+	position: relative;
+}
+.section7-uptext {
+	color: var(--pink);
 }
 
+.section7-card .vert-text {
+	position: absolute;
+	left: -50px;
+	top: 30px;
+	border-bottom: 2px solid var(--pink);
+	rotate: -90deg;
+	text-transform: uppercase;
+}
 
+.section7-title {
+	font-size: 85px;
+	font-weight: bold;
+}
+
+.section7-title span{
+	display:flex; 
+}
+.section7-title {
+	font-size: 85px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.section7-title {
+	font-size: 7rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: -25px;
+}
+.sec7-bottom-txt {
+	font-size: 5rem;
+	font-weight: 200;
+}
+
+.sec7-desc {
+	font-size: 23px;
+	padding: 10px 10px;
+	max-width: 80%;
+	color: var(--grey);
+	font-weight: 300;
+	letter-spacing: 0px;
+	line-height: 25px;
+} 
 
 @media(max-width: 1090px){
  
